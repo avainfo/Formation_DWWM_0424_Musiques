@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #121212;
+}
+
+.card {
+    box-shadow: 0 10px 11px 1px rgba(0, 0, 0, 0.25);
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+    margin: 2.5vh 10vw;
+}
+
+.card > div > p:nth-child(2) {
+    opacity: 0.75;
+}
